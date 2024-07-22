@@ -21,6 +21,13 @@ Backend aplikasi ini dibangun menggunakan PHP dan MariaDB. Berikut adalah penjel
 - `admin/pro_login_admin.php`: Proses autentikasi login admin.
 - `admin/sesi_admin.php`: Skrip untuk menjaga sesi login admin.
 
+#### Folder `petugas`
+- `petugas/index.php`: Halaman dashboard petugas.
+- `petugas/login.php`: Halaman login untuk petugas.
+- `petugas/logout.php`: Skrip untuk logout petugas.
+- `petugas/pro_login_admin.php`: Proses autentikasi login petugas.
+- `petugas/sesi_admin.php`: Skrip untuk menjaga sesi login petugas.
+
 #### Folder `modul`
 - `admin/modul/admin`: Modul untuk manajemen admin.
   - `hapus.php`, `index.php`, `paging.php`, `simpan.php`, `title.php`, `ubah.php`, `update.php`: Skrip untuk manajemen data admin (CRUD).
